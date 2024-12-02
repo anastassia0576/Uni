@@ -175,4 +175,4 @@ map_html = BytesIO()
 m.save(map_html, close_file=False)
 
 # Отображение карты в Streamlit
-st.components.v1.html(map_html.getvalue().decode(), height=5000)
+st.components.v1.html(map_html.getvalue().decode(), height=500)
